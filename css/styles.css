@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(248, 248, 248);
+}
+.custom-bg{
+  background-color:#FF0000;
+}
+
+.availibility-form{
+  margin-top:-50px;
+  z-index:2;
+  position:relative;
+}    
+
+
+@media screen and(max-width:575px){
+  .availibility-form{
+    margin-top:0px;
+    z-index:2;
+    position:relative;
+  }
+}
+
+.back{
+  background-color: rgb(0, 0, 0);
+}
+
+.h-line{
+  width:150px;
+  margin:0 auto;
+  height:1.7px;
+}
